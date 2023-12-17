@@ -1,0 +1,86 @@
+.Login-page {
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBE1FF;
+    box-sizing: border-box;
+}
+
+.MuiSvgIcon-root {
+    width: 4rem !important;
+    height: 3rem !important;
+}
+
+.Login {
+    width: 25vw;
+    height: 65vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    outline: 1px solid rgb(213, 176, 176);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-heading {
+    display: unset;
+    text-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input {
+    width: 18vw;
+    height: 6vh;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.log-button {
+    width: 73%;
+}
+
+@media screen and (max-width:769px) {
+
+    .log-sym {
+        margin: 0px;
+    }
+
+    .Login {
+        width: 90vw;
+        height: 80vh;
+    }
+
+    input,
+    button {
+        width: 60vw;
+        height: 5vh;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin: 0.5rem;
+        border: 2px solid black;
+    }
+
+    .log-button {
+        width: 67%;
+    }
+}

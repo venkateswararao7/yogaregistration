@@ -1,0 +1,40 @@
+.calender {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBE1FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.calender-container {
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.calender-image {
+    margin-top: 1rem;
+    width: 60vw;
+}
+
+@media screen and (max-width:768px) {
+    .calender-container {
+        width: 100vw;
+    }
+
+    .navbar-container {
+        margin-top: 2rem;
+    }
+
+    .calender-image {
+        margin-top: 3rem;
+        width: 100vw;
+    }
+}

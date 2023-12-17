@@ -1,0 +1,53 @@
+.Home-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #DBE1FF;
+}
+
+.Home-container .home {
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-welcome {
+    margin-top: 30vh;
+    box-sizing: border-box;
+}
+
+.reg {
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+}
+
+.home-btn {
+    width: 30%;
+}
+
+@media screen and (max-width:766px) {
+    .container {
+        padding-top: 1rem;
+    }
+
+    .Home-container .home {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .home-welcome {
+        margin-top: 10%;
+    }
+
+    .home-btn {
+        width: 60%;
+    }
+}

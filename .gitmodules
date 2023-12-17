@@ -1,0 +1,3 @@
+[submodule "clientSide/yogaregistration"]
+	path = clientSide/yogaregistration
+	url = https://github.com/venkateswararao7/yogaregistration.git

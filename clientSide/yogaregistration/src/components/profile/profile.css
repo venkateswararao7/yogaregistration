@@ -1,0 +1,66 @@
+.profile {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBE1FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile-container {
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.prof-con {
+    margin-top: 3rem;
+}
+
+.form-container {
+    margin: auto;
+}
+
+.form-selection {
+    width: 18vw;
+    padding: 5px;
+}
+
+.btn-button {
+    background-color: rgb(58, 189, 58);
+    border-radius: 2px;
+}
+
+.btn-button:hover {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .navbar-container {
+        margin-top: 2rem;
+    }
+
+    .profile-container {
+        width: 100vw;
+
+    }
+
+    .form-selection {
+        width: 60%;
+    }
+
+    .btn-button {
+        width: 70%;
+    }
+
+}

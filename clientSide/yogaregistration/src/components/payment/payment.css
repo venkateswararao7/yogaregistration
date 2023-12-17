@@ -1,0 +1,36 @@
+.payment {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBE1FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.payment-container {
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pay-con {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .payment-container {
+        width: 100vw;
+    }
+
+    .navbar-container {
+        margin-top: 2rem;
+    }
+
+
+}
